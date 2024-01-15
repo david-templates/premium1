@@ -33,19 +33,13 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
-              Developer
+              I'm <span className="text-primary">Alex Baker,</span> a Digital Media Expert
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            My work as a video editor and graphic designer in the media industry is characterized by a commitment to clarity, aesthetic simplicity, and effective communication. I focus on capturing the essence of a concept and translating it into visual narratives that resonate with their audience.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+            I believe in creating pieces of work that are not only visually appealing but also communicate effectively, capturing the essence of a message in every frame and design.
             </p>
           </div>
           {/* About me content end */}
@@ -59,22 +53,21 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Alex Baker
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="javascript:void(0);">alexbaker@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>26
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">From:</span>Dublin, Ireland
                 </li>
               </ul>
               <a
-                href={resumeFile}
+                href="javascript:void(0);"
                 download
                 className="btn btn-primary rounded-pill"
               >
@@ -100,10 +93,40 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>10</span>+
+                  <span>5</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Years Experiance
+                  Years of Experience
+                </p>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+              <div className="featured-box text-center">
+                <h4
+                  className={
+                    "text-12  mb-0 " +
+                    (darkTheme ? "text-white-50" : "text-muted")
+                  }
+                >
+                  <span>20</span>+
+                </h4>
+                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
+                  Satisfied Clients
+                </p>
+              </div>
+            </div>
+            <div className="col-6 col-md-3">
+              <div className="featured-box text-center">
+                <h4
+                  className={
+                    "text-12  mb-0 " +
+                    (darkTheme ? "text-white-50" : "text-muted")
+                  }
+                >
+                  <span>30</span>+
+                </h4>
+                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
+                  Projects Completed
                 </p>
               </div>
             </div>
@@ -118,37 +141,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span>250</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Happy Clients
-                </p>
-              </div>
-            </div>
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>650</span>+
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
-                </p>
-              </div>
-            </div>
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>38</span>
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Get Awards
+                  Video Editing Hours
                 </p>
               </div>
             </div>

@@ -30,7 +30,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               />
             </span>
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Alex Baker
             </h1>
           </Link>
           {/* Logo End */}
@@ -129,84 +129,15 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="testimonial"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Testimonial
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="contact"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Contact
-                </Link>
-              </li>
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-            <li className="social-icons-facebook">
-              <Tooltip text="Facebook" placement="top">
-                <a
-                  href="http://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </Tooltip>
-            </li>
             <li className="social-icons-twitter">
-              <Tooltip text="Twitter" placement="top">
+              <Tooltip text="Email" placement="top">
                 <a
-                  href="http://www.twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="javascript:void(0);"
                 >
-                  <i className="fab fa-twitter" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
-                <a
-                  href="http://www.dribbble.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-dribbble" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
-                <a
-                  href="http://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github" />
+                  <i className="fa fa-envelope" />
                 </a>
               </Tooltip>
             </li>

@@ -34,10 +34,10 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   <Typewriter
                     options={{
                       strings: [
-                        "I'm Simone Olivia.",
-                        "I'm a Freelancer.",
-                        "I'm a Photographer.",
-                        "I'm a Designer.",
+                        "I'm Alex Baker.",
+                        "I'm a Media Expert.",
+                        "I'm a Video Editor.",
+                        "I'm a Graphic Designer.",
                       ],
                       autoStart: true,
                       loop: true,
@@ -45,17 +45,16 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Los Angeles, California.
+                  based around Dublin.
                 </p>
                 <a
-                  href="#contact"
+                  href="javascript:void(0);"
                   className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
                   onClick={(e) => {
                     e.preventDefault();
-                    handleNavClick("contact");
                   }}
                 >
-                  Hire Me
+                  <i className="fab fa-linkedin" />
                 </a>
               </div>
             </div>

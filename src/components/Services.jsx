@@ -4,34 +4,34 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Digital Content Creation",
+      desc: "Producing content and creating digital marketing materials",
       icon: "fas fa-palette",
     },
     {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
-    },
-    {
-      name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
-    },
-    {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Multimedia Presentations",
+      desc: "Integrating video, audio, and graphical elements to produce interactive presentations.",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Digital Asset Management",
+      desc: "Organizing and maintaining digital files. Cataloging and archiving media assets.",
+      icon: "fas fa-laptop-house",
+    },
+    {
+      name: "Brand Development",
+      desc: "Crafting brand narratives and messaging. Developing brand guidelines and style guides.",
       icon: "fas fa-bullhorn",
+    },
+    {
+      name: "Video Editing",
+      desc: "Adding special effects and transitions, color grading, video correction and much more.",
+      icon: "fas fa-desktop",
+    },
+    {
+      name: "Graphic Design",
+      desc: "Creating layouts for print and digital media. Photo editing and manipulation.",
+      icon: "fas fa-paint-brush",
     },
   ];
 

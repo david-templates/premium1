@@ -4,70 +4,58 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2021-2022",
+      title: "Video Editing Online Certificate",
+      place: "Coursera",
+      desc: "A comprehensive online program focused on mastering editing techniques, visual storytelling, and post-production skills using Adobe Premiere. Acquired expertise in narrative construction, special effects, color grading, and audio editing to enhance multimedia projects.",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2016-2020",
+      title: "Media Studies",
+      place: "TU Dublin, Higer Level Certificate",
+      desc: "This program encompassed a blend of theoretical and practical learning, including critical analysis of media, cultural impact studies, and hands-on media creation, which in turn provisioned a deep understanding of the evolving media landscape and it's multiple applications.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2020 - Now",
+      title: "Media Services Freelancer",
+      place: "Self-Employed",
+      desc: "Providing a dynamic blend of skills in video editing, graphic design, and digital storytelling. Proficient in creating compelling visual content tailored for diverse platforms, from social media to corporate presentations. Known for a creative and detail-oriented approach, I deliver high-quality, engaging, and impactful media solutions that resonate with target audiences.",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2019 - 2020",
+      title: "Soft Media",
+      place: "Media Editing Intern",
+      desc: "Gained valuable hands-on experience working in a fast-paced production environment. Demonstrated an ability to support senior editors and production teams in various aspects of media development.",
     },
   ];
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "Design Principles",
+      percent: 90,
     },
     {
-      name: "HTML/CSS",
-      percent: 95,
+      name: "Adobe Premier Pro",
+      percent: 90,
     },
     {
-      name: "JavaScript",
+      name: "Narrative Development and Storytelling",
+      percent: 85,
+    },
+    {
+      name: "Adobe Photoshop",
       percent: 80,
     },
     {
-      name: "React JS",
-      percent: 70,
+      name: "Multimedia Presentation",
+      percent: 100,
     },
     {
-      name: "Angular Js",
-      percent: 60,
-    },
-    {
-      name: "Bootstrap",
-      percent: 99,
+      name: "Adobe Illustrator",
+      percent: 85,
     },
   ];
 
@@ -208,7 +196,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
-            href={resumeFile}
+            href="javascript:void(0);"
             download
           >
             Download CV
