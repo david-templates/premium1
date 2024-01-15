@@ -24,8 +24,8 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/profile.jpg"
-                title="I'm Simone"
+                src="images/profile.jpeg"
+                title="I'm Alex Baker"
                 alt="profile"
               />
             </span>
@@ -132,6 +132,15 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+          <li className="social-icons-twitter">
+              <Tooltip text="LinkedIn" placement="top">
+                <a
+                  href="javascript:void(0);"
+                >
+                  <i className="fab fa-linkedin" />
+                </a>
+              </Tooltip>
+            </li>
             <li className="social-icons-twitter">
               <Tooltip text="Email" placement="top">
                 <a
